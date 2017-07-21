@@ -1,0 +1,21 @@
+.comment-area {
+    margin-top: 3em;
+    margin-bottom: 3em;
+}
+
+.add-name-label {
+    font-size: 1.3em;
+    font-weight: 500;
+}
+
+.input-comments {
+    font-size: 1.2em;
+    width: 40em;
+    margin-right: 1em;
+    margin-left: 1em;
+}
+
+.add-comment-btn {
+    width: 5em;
+    line-height: 1.9em;
+}

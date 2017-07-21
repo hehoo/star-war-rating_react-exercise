@@ -1,0 +1,87 @@
+table {
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+td,
+th {
+  padding: 0;
+}
+
+input {
+  display: inline-block;
+  padding: 0.3px 0.5em;
+  font-size: 1em;
+  line-height: 3em;
+  color: #555;
+  border: 1px solid #ccc;
+  border-radius: 0.7em;
+}
+
+button {
+  padding: 0.3em 0.5em;
+  font-size: 1.3em;
+  font-weight: normal;
+  line-height: 1.5em;
+  white-space: nowrap;
+  vertical-align: middle;
+  border: 1px solid #8c8c8c;
+  border-radius: 0.4em;
+  cursor: pointer;
+  background-color: #fff;
+}
+
+button:focus, button:active:focus {
+  outline: thin dotted;
+  outline-offset: -2px;
+}
+
+button:hover, button:focus {
+  color: #ffffff;
+  text-decoration: none;
+  background-color: #111111;
+  border-color: #adadad;
+}
+
+button[disabled] {
+  cursor: not-allowed;
+  filter: alpha(opacity=65);
+  box-shadow: none;
+  opacity: .65;
+}
+
+.App {
+  position: relative;
+  background-image: url(/img/starwar_bg.jpg);
+  height: 100%;
+  opacity: 0.95;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.App-header {
+  height: 6em;
+  padding: 1.5em 7em;
+  color: white;
+  font-size: 1.6em;
+}
+
+.App-body {
+  color: white;
+  max-width: 75em;
+  margin: auto;
+  font-size: 1.0em;
+  min-height: 50em;
+}
+
+.loading {
+  font-size: 1.5em;
+}
+
+.error {
+  font-size: 1.5em;
+  color: #880000;
+  background-color: #ffffff;
+}
+

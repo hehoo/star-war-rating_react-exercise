@@ -1,0 +1,25 @@
+.thumbnail {
+    display: inline-block;
+    padding: 0.3em;
+    border: 1px solid #DDDDDD;
+    border-radius: 0.3em;
+    cursor: pointer;
+    margin-bottom: 0.3em;
+}
+
+.thumbnail > img {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a.thumbnail:hover,
+a.thumbnail:focus,
+a.thumbnail.active {
+    border-color: #337ab7;
+}
+
+.thumbnail .caption {
+    padding: 0.2em;
+    font-size: 1.2em;
+}
+

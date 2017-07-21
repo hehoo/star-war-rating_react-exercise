@@ -1,0 +1,21 @@
+.vote {
+    display: block;
+    padding: 0.5em 0.1em;
+}
+
+.vote > .badge {
+    margin-right: 0.5em;
+}
+
+.vote > button {
+    margin-right:0.3em;
+}
+
+.badge {
+    display: inline-block;
+    min-width: 1em;
+    padding: 0.4em 0.5em;
+    font-weight: bold;
+    background-color: #777;
+    border-radius: 0.8em;
+}
